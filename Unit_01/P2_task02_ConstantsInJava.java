@@ -9,10 +9,12 @@ public class P2_task02_ConstantsInJava {
         System.out.println(pi);
         main("Tushar Joshi");
     }
+
     public static void main(String args)
     {
         System.out.println(pi);
     }
+
     void add(int a,int b)
     {
         System.out.println(a+b);
