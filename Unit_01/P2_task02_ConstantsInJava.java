@@ -3,6 +3,7 @@ package College.Unit_01;
 public class P2_task02_ConstantsInJava {
 
     public static final double pi=3.14;
+    //final= Constant
     //pi=3.18;
     public static void main(String[] args) {
 

@@ -58,7 +58,7 @@ class QuestionsOnArray {
             arr[i]=arr1[i];
         }
 
-
+// 1, 2, 3, 4, 5, 4, 6, 2, 3
         System.out.println("Duplicate Elements:");
         for(int i=0;i<arr.length;i++)
         {

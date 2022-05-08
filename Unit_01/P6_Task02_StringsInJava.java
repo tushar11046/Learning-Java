@@ -82,5 +82,6 @@ class StringInJava
 
         char[] a2 = { 'A', 'K', 'A' };
         String s3 = new String(a2);
+
     }
 }

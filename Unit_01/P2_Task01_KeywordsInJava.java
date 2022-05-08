@@ -18,7 +18,7 @@ public class P2_Task01_KeywordsInJava {
 		//class name[Given Below]
 		//object
 		//objects name can never be any keywords in Java
-		ABC int =new ABC();
+		ABC abc =new ABC();
 
 
 	}

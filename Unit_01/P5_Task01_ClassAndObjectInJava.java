@@ -8,6 +8,8 @@ public class P5_Task01_ClassAndObjectInJava {
         obj.display2();
         obj.display();
 
+        ABC2 obj2 = new ABC2();
+        obj2.display();
     }
 }
 class ABC2

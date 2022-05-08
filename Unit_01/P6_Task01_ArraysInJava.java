@@ -5,16 +5,16 @@ public class P6_Task01_ArraysInJava {
     public static void main(String[] args) {
 
         //Declaration
-        int array1[];
-        int[] array2; //also correct
-        int []array3; //also correct
+//        int array1[];
+//        int[] array2; //also correct
+//        int []array3; //also correct
 
         //Can not do array1[0]=1;
         //as we have not provided it any memory
 
         //initialization
 
-        array1= new int[6];
+        int array1[]= new int[6];
 
         //Assigning values to the java Array
         for(int i=0;i<array1.length;i++) //length is the property of array
@@ -65,7 +65,7 @@ public class P6_Task01_ArraysInJava {
 
         //ArrayIndexOutOfBoundException
         int arr[]= {50,60,70,80};
-        for(int i=0; i <=arr.length;i++)
+        for(int i=0; i <arr.length;i++)
         {
             System.out.println(arr[i]);
         }
