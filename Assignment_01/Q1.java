@@ -1,6 +1,5 @@
 package College.Assignment_01;
 import java.util.Scanner;
-
 public class Q1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,17 +15,14 @@ public class Q1 {
         }
         System.out.print("Average Percentage= "+(avg/6.0));
     }
-
 }
 class Student
-{
-    String name;
+{   String name;
     int age;
     int percentage;
     char section;
     Student(String name,int age,int percentage)
-    {
-        this.name=name;
+    {this.name=name;
         this.age=age;
         this.percentage=percentage;
         this.section='A';

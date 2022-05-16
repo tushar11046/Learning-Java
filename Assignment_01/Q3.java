@@ -1,10 +1,8 @@
 package College.Assignment_01;
 import java.util.Scanner;
-
 interface In1 {
     void display(int p);
 }
-
 public class Q3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,25 +11,20 @@ public class Q3 {
 
         testClass obj = new testClass();
         obj.display(p);
-
     }
 }
 class testClass implements In1{
     public void display(int q) {
-
         int c=0,i;
         for(i=2;i<=q;i++) {
             if(q%i==0) {
                 c++;
-                break;
-            }
-        }
+                break; }  }
         if(c>0) {
             System.out.println("Number is   prime");
         }
         else {
             System.out.println("Number is not prime");
         }
-
     }
 }

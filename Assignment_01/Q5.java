@@ -43,8 +43,6 @@ public class Q5 {
         System.out.println("Total salary to be paid in department B "+sum2);
         System.out.println("Total salary to be paid in department C "+sum3);
         System.out.println("Total salary to be paid in department D "+sum4);
-
-
     }
 }
 class Employee {

@@ -1,12 +1,11 @@
 package College.Assignment_01;
-
 public class Q4 {
     public static void main(String[] args) {
         Three obj = new Three();
         Three obj1 = new Three(1,2);
-
     }
 }
+
 class One {
     One(int q){
         System.out.println("Number in One is = "+q);
@@ -19,7 +18,6 @@ class Two extends One {
         System.out.println("You are under default constructor of Two");
     }
 }
-
 class Three extends Two {
 
     Three(){

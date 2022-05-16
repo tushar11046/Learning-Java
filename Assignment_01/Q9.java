@@ -5,17 +5,13 @@ public class Q9 {
 
     public static void main(String[] args) {
 
-
         access a1 = new access();
         a1.display();
         System.out.println("value of variables which are accessible in main is =");
         System.out.println(a1.a);
         System.out.println(a1.b);
         System.out.println(a1.c);
-
-
     }
-
 }
 class access extends Q9{
 
